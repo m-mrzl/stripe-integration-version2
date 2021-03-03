@@ -1,0 +1,182 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.linear-gradient {
+    background: linear-gradient(to right,#0E143C, #F1C6D7);
+  }
+
+
+header nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+
+header nav ul li {
+    display: inline;
+    margin-left: 25px;
+}
+
+header nav div ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul div {
+    
+    display: inline;
+    margin-right: 550px;
+} 
+
+header nav div button {
+    margin-right: 50px;
+}
+
+header nav img {
+    width: 100px;
+}
+
+header {
+    border-bottom: 1px solid rgb(212, 209, 209);
+}
+
+header button{
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 15px;
+    padding: 5px 12px 5px 12px;
+}
+
+main button {
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 4px;
+    padding: 5px 15px 5px 15px;
+}
+
+.ombre {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+main button:hover {
+    background-color:#2ba2e5;
+}
+
+main {
+    text-align: left;
+}
+
+main section > div {
+    margin-left: 150px;
+}
+
+main {
+    display: flex;
+    column-gap: 30px;
+}
+
+main {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+main section > div {
+    color: white;
+    padding-left: 58px;
+}
+
+main section h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+
+main section button {
+    margin-top: 20px;
+}
+
+
+footer div img {
+    width: 70px;
+    opacity: 0.5;
+}
+
+footer div  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div ul li {
+    display: inline;
+    margin-left: 25px;
+}
+
+footer div ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    border-top: 1px solid rgb(212, 209, 209);
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.exemple {
+    height: 350px;
+    width: 180px;
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    z-index:200;
+    filter: drop-shadow(20px 20px 20px rgba(99, 96, 96, 0.5) );
+}
+
+.jaune {
+    position: relative;
+    top: 100px;
+    height: 200px;
+    width: 250px;
+}
+
+.rouge {
+    position: absolute;
+    bottom: 35px;
+    height: 250px;
+    width: 150px;
+    right: 18%;
+    z-index: 100;
+    filter: drop-shadow(20px 20px 20px rgba(128, 15, 15, 0.5) );
+}
+
+.vert {
+    position: absolute;
+    bottom: 35px;
+    height: 250px;
+    width: 150px;
+    left: 67%;
+    z-index: 150;
+    filter: drop-shadow(20px 20px 20px rgba(128, 15, 15, 0.5) );
+}
+
